@@ -94,7 +94,7 @@
                                     <rect key="frame" x="39" y="114" width="112" height="21"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="58" y="179" width="179" height="52"/>
+                                    <rect key="frame" x="58" y="114" width="179" height="117"/>
                                 </variation>
                             </label>
                             <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="69" placeholderIntrinsicHeight="69" image="albert_stamp.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="ubf-lJ-GUz">
@@ -122,15 +122,6 @@
                                     <action selector="sendMailButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="duy-y7-yBe"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name entered" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtf-VZ-aRz">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="61" y="100" width="176" height="49"/>
-                                </variation>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -140,7 +131,6 @@
                                 <exclude reference="q8B-FZ-C5R"/>
                                 <exclude reference="ubf-lJ-GUz"/>
                                 <exclude reference="H0v-Cu-Cig"/>
-                                <exclude reference="Mtf-VZ-aRz"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -152,18 +142,12 @@
                                 <include reference="H0v-Cu-Cig"/>
                             </mask>
                         </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="Mtf-VZ-aRz"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="enterMessageTextField" destination="cUd-cd-xES" id="0dP-S0-haM"/>
                         <outlet property="enterNameTextField" destination="8vp-xj-ktU" id="4BC-Zt-GNn"/>
                         <outlet property="mailButton" destination="H0v-Cu-Cig" id="MUr-m4-rr5"/>
                         <outlet property="messageLabel" destination="q8B-FZ-C5R" id="cRD-wD-PLa"/>
-                        <outlet property="nameLabel" destination="Mtf-VZ-aRz" id="2P2-Su-b5J"/>
                         <outlet property="searchDisplayController" destination="shi-ac-GmT" id="b3T-gs-0XB"/>
                     </connections>
                 </viewController>
