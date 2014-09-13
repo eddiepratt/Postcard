@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         enterMessageTextField.text=nil
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
         messageLabel.hidden=false
+        //Get rid of the popup keyboard.
         enterMessageTextField.resignFirstResponder()
         
     }
